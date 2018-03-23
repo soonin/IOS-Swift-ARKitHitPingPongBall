@@ -13,6 +13,7 @@
 		FAC4C428206300F40074F4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC4C426206300F40074F4E3 /* Main.storyboard */; };
 		FAC4C42A206300F40074F4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC4C429206300F40074F4E3 /* Assets.xcassets */; };
 		FAC4C42D206300F40074F4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC4C42B206300F40074F4E3 /* LaunchScreen.storyboard */; };
+		FAC4C437206304F00074F4E3 /* MainScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = FAC4C436206304F00074F4E3 /* MainScene.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAC4C429206300F40074F4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC4C42C206300F40074F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC4C42E206300F40074F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4C436206304F00074F4E3 /* MainScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = MainScene.scn; path = art.scnassets/MainScene.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC4C420206300F40074F4E3 /* AppDelegate.swift */,
+				FAC4C436206304F00074F4E3 /* MainScene.scn */,
 				FAC4C422206300F40074F4E3 /* art.scnassets */,
 				FAC4C424206300F40074F4E3 /* ViewController.swift */,
 				FAC4C426206300F40074F4E3 /* Main.storyboard */,
@@ -130,6 +133,7 @@
 				FAC4C42D206300F40074F4E3 /* LaunchScreen.storyboard in Resources */,
 				FAC4C42A206300F40074F4E3 /* Assets.xcassets in Resources */,
 				FAC4C428206300F40074F4E3 /* Main.storyboard in Resources */,
+				FAC4C437206304F00074F4E3 /* MainScene.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAHXQH4SC5;
 				INFOPLIST_FILE = "IOS-Swift-ARKitHitPingPongBall/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pooya.brain.dev.IOS-Swift-ARKitHitPingPongBall";
@@ -293,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAHXQH4SC5;
 				INFOPLIST_FILE = "IOS-Swift-ARKitHitPingPongBall/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pooya.brain.dev.IOS-Swift-ARKitHitPingPongBall";
